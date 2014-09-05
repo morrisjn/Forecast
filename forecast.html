@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Weather Forecast</title>
+
+    <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="css/forecast.css" rel="stylesheet" />
+    <script language="javascript" type="text/javascript" src="js/forecast.js"></script>
+</head>
+<body>
+	City: <input type="text" id="txtCity" value="Toronto"/><br>
+	Country Code: <input type="text" id="txtCountryCode" value="CA"/>
+	<br>
+	<button id="btnSubmit" onclick="window.forecast.submitForcast()">Submit</button>
+	
+	<br><br>
+
+	<table class="forecastTable">
+		<tr id="forecastTr"></tr>
+	</table>
+
+	
+</body>
+</html>

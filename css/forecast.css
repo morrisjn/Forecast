@@ -1,0 +1,28 @@
+﻿.forecastDay {
+	width: 150px; 
+	float: inherit; 
+	list-style: none outside none;
+}
+
+.forecastDate {
+	font-weight: bold;
+	text-align: center;
+}
+
+.min{
+	color: green;
+	font-weight: bold;
+}
+
+.max{
+	color: red;
+	font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
